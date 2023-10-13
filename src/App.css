@@ -18,8 +18,9 @@
 
 .titles {
   font-size: 5vh;
-  color: #00ffa0;
+  color: #33A1FD;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .dark-bg {

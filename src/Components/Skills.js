@@ -5,7 +5,7 @@ class Skills extends Component {
         return (
             <div>
                 <div>
-                    <p className="pb-3 titles"><u>Skills Nurtured</u></p>
+                    <p className="pb-3 titles">Skills Nurtured</p>
                     <h2 className="text-center pb-5">Some of the languages and frameworks I have worked with.</h2>
 
                     <div className="row">
@@ -122,6 +122,17 @@ class Skills extends Component {
                                     <div className="card-title pb-2">REST API</div>
                                     <div className='h-100'>
                                         <img src="/images/skills/rest.png" className="img-fluid" alt="css"></img>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        {/* 12Python */}
+                        <div className="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-2 mb-3">
+                            <a className="skills" href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank" rel="noreferrer">
+                                <div className="body-card text-center d-flex flex-column h-100">
+                                    <div className="card-title pb-2">Python</div>
+                                    <div className='h-100'>
+                                        <img src="/images/skills/python.png" className="img-fluid" alt="css"></img>
                                     </div>
                                 </div>
                             </a>

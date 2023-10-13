@@ -81,7 +81,7 @@ class AboutMe extends Component {
                             <p className='titles'>About Me</p><br/>
                             <p style={{ textAlign: 'justify' }} >
                                 My name is Aldous Benjamin A. Maranga, Aldous for short. I am currently studying at Lithan Academy Singapore as a Software Engineer.
-                                I enjoy solving problems on real-time and through coding structures aw well as understanding the meaning behind a certain functionality.
+                                I enjoy solving problems on real-time and through coding structures as well as understanding the meaning behind a certain functionality.
                             </p>
                         </div>
                     </div>
@@ -91,27 +91,27 @@ class AboutMe extends Component {
                         <div className='row mb-5'>
                             <div className='col-md-6 col-sm-12 mb-4'>
                                 <p style={{ color: '#DA0C81', fontSize: '3vh' }}>Lithan Academy</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2.7vh' }}>Singapore</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2.7vh' }}>Applied Degree in Software Engineering</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2vh' }}><span style={{ backgroundColor: '#2E4374', padding: '5px', borderRadius: '5px' }}>2022-Present</span></p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2.7vh' }}>Singapore</p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2.7vh' }}>Applied Degree in Software Engineering</p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2vh' }}><span style={{ backgroundColor: '#2E4374', padding: '5px', borderRadius: '5px' }}>2022-Present</span></p>
                             </div>
                             <div className='col-md-6 col-sm-12 mb-4'>
                                 <p style={{ color: '#DA0C81', fontSize: '3vh' }}>University Of Cebu-Banilad</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2.7vh' }}>Cebu City, Philippines</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2.7vh' }}>Bachelor of Science in Information Technology</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2vh' }}><span style={{ backgroundColor: '#2E4374', padding: '5px', borderRadius: '5px' }}>2022-Present</span></p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2.7vh' }}>Cebu City, Philippines</p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2.7vh' }}>Bachelor of Science in Information Technology</p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2vh' }}><span style={{ backgroundColor: '#2E4374', padding: '5px', borderRadius: '5px' }}>2022-Present</span></p>
                             </div>
                             <div className='col-md-6 col-sm-12 mb-4'>
                                 <p style={{ color: '#DA0C81', fontSize: '3vh' }}>University of Cebu</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2.7vh' }}>Cebu City, Philippines</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2.7vh' }}>Senior Highschool Degree</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2vh' }}><span style={{ backgroundColor: '#2E4374', padding: '5px', borderRadius: '5px' }}>2020-2022</span></p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2.7vh' }}>Cebu City, Philippines</p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2.7vh' }}>Senior Highschool Degree</p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2vh' }}><span style={{ backgroundColor: '#2E4374', padding: '5px', borderRadius: '5px' }}>2020-2022</span></p>
                             </div>
                             <div className='col-md-6 col-sm-12 mb-4'>
                                 <p style={{ color: '#DA0C81', fontSize: '3vh' }}>Don Bosco Technical College</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2.7vh' }}>Cebu City, Philippines</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2.7vh' }}>Junior Highschool Degree</p>
-                                <p style={{ color: '#7D7C7C', fontSize: '2vh' }}><span style={{ backgroundColor: '#2E4374', padding: '5px', borderRadius: '5px' }}>2016-2020</span></p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2.7vh' }}>Cebu City, Philippines</p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2.7vh' }}>Junior Highschool Degree</p>
+                                <p style={{ color: '#E5F2C9', fontSize: '2vh' }}><span style={{ backgroundColor: '#2E4374', padding: '5px', borderRadius: '5px' }}>2016-2020</span></p>
                             </div>
                         </div>
                     </div>
