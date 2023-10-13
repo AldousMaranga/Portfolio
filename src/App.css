@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  /* font-family: 'Young Serif'; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header1 {
+  font-size: 13vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header2 {
+  font-size: 12vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.titles {
+  font-size: 5vh;
+  color: #00ffa0;
+  text-decoration: underline;
+}
+
+.dark-bg {
+  color: aliceblue;
+  background-color: #181818;
+  /* background-color: #111f00; */
+
+}
+
+.about-bg {
+  color: aliceblue;
+  /* background-image: linear-gradient(to right, #d9e6d1, #a8c797); */
+  /* background-color: #181818; */
+  background-color: #060933;
+
+}
+
+.footer-bg {
+  color: #060933;
+  background-color: rgba(240, 248, 255, 0.5);
+
+}
+
+.img-cont {
+  border-radius: 360px;
+  background-color: #434343;
+  /* background-color: transparent; */
+
+}
+
+.typewriter-style {
+  color: #FFBE0B;
+}
+
+/* Apply styles to the sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* Vertically center contents */
+  align-items: center;
+  /* Align contents to the start (left) */
+  overflow-y: auto;
+  /* Add scrollbar if content exceeds height */
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  /* Remove default padding from ul element */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar ul li {
+  margin-bottom: 10px;
 }
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+i {
+  font-size: 4vh;
+}
+
+i:hover {
+  opacity: 0.5;
+}
+
+.skills {
+  text-decoration: none;
+}
+
+.body-card:hover {
+  opacity: 0.5;
+}
+
+.body-card {
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  background: #212121;
+  /* background-image: linear-gradient(to right, #d9e6d1, #a8c797); */
+
+  box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+}
+
+/* Custom CSS to set fixed height and width for images */
+.project-image {
+  height: 400px; /* Set the desired height for your images */
+  width: 100%;  /* Set the desired width for your images */
+  object-fit: cover;
+  border: 1px solid #060933; 
+}
+
+/* Custom CSS to remove margins on columns */
+/* Custom CSS to remove margins with !important */
+.custom-column {
+  margin: 0 !important;
+  padding: 0 !important;
+  
+}
+
+.wrap {
+  position: relative;
+}
+
+.text-wrap {
+  position: absolute;
+  bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 0;
+  width: 100%;
+  /* color: #060933; */
+  /* background-color: rgba(255, 205, 75, 0.5); */
+  color: aliceblue;
+  background-color: rgba(6, 9, 51, 0.9);
+}
+
+.text-wrap {
+  display: none;
+}
+
+.wrap:hover .text-wrap {
+  display: block;
+}
+
+.img-wrap:hover {
+  opacity: 0.3;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+
+
+
+
+
