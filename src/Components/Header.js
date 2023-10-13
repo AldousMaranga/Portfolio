@@ -5,7 +5,7 @@ class Header extends Component {
         return (
             <div className="dark-bg p-2" >
                 <div className="container-fluid text-center">
-                    <h1>ABAM</h1>
+                    <h1>Gwapo ABAM</h1>
                 </div>
             </div>
         )
